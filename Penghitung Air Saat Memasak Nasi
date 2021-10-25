@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int beras, air;
+    cout<<"Penghitung Air Saat Memasak Nasi \n";
+    cout<<"Berapa gelas takar beras yang akan dimasak?";
+    cin>>beras
+    air=2*beras;
+    cout<<"Sebaiknya menggunakan "<<air<<" gelas takar air";
+
+    return 0;
+}
